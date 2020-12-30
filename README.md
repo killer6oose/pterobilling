@@ -4,7 +4,7 @@
 ## Features
 - Free and open-source
 - Automatically collect monthly payments, create/suspend/delete servers and panel accounts
-- Create server plans with custom features and prices
+- Create server plans and add-ons with custom features and prices
 - Create coupon codes and discounts
 - Built-in subdomain manager and server JAR file installer
 - PayPal integration
