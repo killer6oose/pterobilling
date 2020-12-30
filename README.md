@@ -1,5 +1,5 @@
 # PteroBilling
-#### A client and billing area specially made for Pterodactyl panel
+### A client and billing area specially made for Pterodactyl panel
 
 ## Features
 - Free and open-source
@@ -21,5 +21,5 @@ PteroBilling has not been released yet.
 A pre-release of PteroBilling will be published before **March 2021**.
 
 ## To-do list
-- [] Release PteroBilling!
-- [] Coming soon...
+- [ ] Release PteroBilling!
+- [ ] Coming soon...
