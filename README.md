@@ -1,5 +1,5 @@
-<div style="text-align:center">
-    <img src="https://raw.githubusercontent.com/pterobilling/pterobilling/master/.github/icon_blue_bg.png" alt="PteroBilling Logo" width="50%" style="display: block;   margin-left: auto; margin-right: auto;">
+<div align="center">
+    <img src="https://raw.githubusercontent.com/pterobilling/pterobilling/master/.github/icon_blue_bg.png" alt="PteroBilling" width="150px">
     <h1>PteroBilling</h1>
     <h3>An open-source online store, client area, and billing software specially made for Pterodactyl panel</h3>
 </div>
