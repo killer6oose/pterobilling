@@ -3,12 +3,12 @@
 
 ## Features
 - Free and open-source
-- Beautiful storefront, user-friendly client area and admin area
-- Create your server plans and add-ons with your custom features (CPU, RAM, disk, etc), prices and billing cycles
+- Beautiful storefront, user-friendly client area, and admin area
+- Create your server plans and add-ons with your custom features (CPU, RAM, disk, etc), prices, and billing cycles
 - Automatically create panel accounts and game servers for your clients
 - Promote your business with coupon codes, discounts, and an affiliate program
-- Automatically bill, create invoices and collect recurring payments from your clients from different payment gateways, currencies, taxes and fees
-- Built-in support center with ticketing system, announcements, knowledge base, and status page
+- Automatically bill, create invoices and collect recurring payments from your clients from different payment gateways, currencies, taxes, and fees
+- Built-in support center with a ticketing system, announcements, knowledge base, and status page
 - Add and modify the pages of your store (a contact form page is included)
 - Built-in subdomain manager and JAR installer for game servers
 - Fully customizable: custom themes, extensions (PayPal, Cloudflare, hCaptcha integrations), blade templates
