@@ -1,5 +1,6 @@
-# PteroBilling
-### A client and billing area specially made for Pterodactyl panel
+<img src="https://raw.githubusercontent.com/pterobilling/pterobilling/master/.github/icon_blue_bg.png" alt="PteroBilling Logo" style="display: block; margin-left: auto; margin-right: auto;">
+<h1 style="text-align: center;">PteroBilling</h1>
+<h3 style="text-align: center;">An open-source online store, client area, and billing software specially made for Pterodactyl panel</h3>
 
 ## Features
 - Free and open-source
