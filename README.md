@@ -1,5 +1,5 @@
 <div align="center">
-    <img src="https://raw.githubusercontent.com/pterobilling/pterobilling/master/.github/icon_blue_bg.png" alt="PteroBilling" width="150px">
+    <img src="https://raw.githubusercontent.com/pterobilling/pterobilling/master/.github/icon_blue.png" alt="PteroBilling" width="150px">
     <h1>PteroBilling</h1>
     <h3>An open-source online store, client area, and billing software specially made for Pterodactyl panel</h3>
 </div>
@@ -18,6 +18,9 @@
 
 ## Installation
 PteroBilling has not been released yet.
+
+### Requirements
+- Pterodactyl panel **v1.0 or above** already installed on the same or different server
 
 ## FAQ
 ### When will PteroBilling be released?
