@@ -4,6 +4,9 @@
     <h3>An open-source online store, client area, and billing software specially made for Pterodactyl panel</h3>
 </div>
 
+![Badge of Stable](https://badgen.net/github/release/pterobilling/pterobilling/stable?label=stable&color=green)
+![Badge of Latest](https://badgen.net/github/release/pterobilling/pterobilling?label=latest&color=orange)
+
 ## Features
 - Free and open-source
 - Beautiful storefront, user-friendly client area, and admin area
