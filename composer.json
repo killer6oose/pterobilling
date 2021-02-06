@@ -1,6 +1,7 @@
 {
     "name": "pterobilling/pterobilling",
     "description": "PteroBilling - an open-source online store, client area, and billing software specially made for Pterodactyl panel",
+    "type": "project",
     "license": "MIT",
     "authors": [
         {
