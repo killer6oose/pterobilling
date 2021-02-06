@@ -2,22 +2,25 @@
     <img src="https://raw.githubusercontent.com/pterobilling/pterobilling/master/.github/icon_blue.png" alt="PteroBilling" width="150px">
     <h1>PteroBilling</h1>
     <h3>An open-source online store, client area, and billing software specially made for Pterodactyl panel</h3>
+    <img src="https://img.shields.io/github/v/release/pterobilling/pterobilling?sort=semver&color=green&label=stable&style=for-the-badge" alt="stable release badge">&emsp;
+    <img src="https://img.shields.io/github/v/release/pterobilling/pterobilling?include_prereleases&sort=semver&label=latest&style=for-the-badge" lt="latest release badge)">&emsp;
+    <img src="https://img.shields.io/github/stars/pterobilling/pterobilling?style=for-the-badge" alt="stars badge">&emsp;
+    <img src="https://img.shields.io/github/watchers/pterobilling/pterobilling?style=for-the-badge" alt="watchers badge">&emsp;
+    <!--<img src="https://img.shields.io/packagist/dt/pterobilling/pterobilling?color=brightgreen&style=for-the-badge" alt="downloads badge">-->
 </div>
-
-![Badge of Stable](https://badgen.net/github/release/pterobilling/pterobilling/stable?label=stable&color=green)
-![Badge of Latest](https://badgen.net/github/release/pterobilling/pterobilling?label=latest&color=orange)
 
 ## Features
 - Free and open-source
-- Beautiful storefront, user-friendly client area, and admin area
-- Create your server plans and add-ons with your custom features (CPU, RAM, disk, etc), prices, and billing cycles
+- A user-friendly client area and powerful admin area with a beautiful theme (customizable)
+- Create your server plans and add-ons with custom settings (CPU, RAM, disk, databases, backups, allocations), prices, billing cycles, setup fees, free trial, discounts, coupon codes, global limits, and per client limits
 - Automatically create panel accounts and game servers for your clients
-- Promote your business with coupon codes, discounts, and an affiliate program
-- Automatically bill, create invoices and collect recurring payments from your clients from different payment gateways, currencies, taxes, and fees
-- Built-in support center with a ticketing system, announcements, knowledge base, and status page
-- Add and modify the pages of your store (a contact form page is included)
+- Automatically bill your clients, create invoices, and collect payments (one-time or recurring)
+- Advanced billing system: multiple payment gateways, currencies, taxes, and prepaid account credit
+- Boost your business and find more clients by enabling an affiliate program
+- Built-in support center with a ticketing system, knowledge base, system status page, and announcements
 - Built-in subdomain manager and JAR installer for game servers
-- Fully customizable: custom themes, extensions (PayPal, Cloudflare, hCaptcha integrations), blade templates
+- Built-in contact form, terms of service, privacy policy, and system status pages
+- Extendable: use our extensions (PayPal, hCaptcha, Cloudflare integrations) or make your own one
 
 ## Installation
 PteroBilling has not been released yet.

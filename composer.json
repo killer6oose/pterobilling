@@ -1,18 +1,40 @@
 {
-    "name": "pterobilling",
-    "description": "PteroBilling - A client and billing area specially made for Pterodactyl panel",
+    "name": "pterobilling/pterobilling",
+    "description": "PteroBilling - an open-source online store, client area, and billing software specially made for Pterodactyl panel",
     "license": "MIT",
+    "authors": [
+        {
+            "name": "Alaister Leung",
+            "email": "contact@alaister.net",
+            "homepage": "https://about.alaister.net",
+            "role": "Developer"
+        }
+    ],
+    "support": {
+        "email": "pterobilling@alaister.net",
+        "issues": "https://github.com/pterobilling/pterobilling/issues",
+        "forum": "https://github.com/pterobilling/pterobilling/discussions",
+        "source": "https://github.com/pterobilling/pterobilling",
+        "docs": "https://docs.alaister.net"
+    },
+    "funding": [
+        {
+            "type": "paypal",
+            "url": "https://paypal.me/alaisterleung"
+        }
+    ],
     "require": {
-        "php": "^7.3|^8.0",
+        "php": "^7.4|^8.0",
         "fideloper/proxy": "^4.4",
         "fruitcake/laravel-cors": "^2.0",
         "guzzlehttp/guzzle": "^7.0.1",
-        "laravel/framework": "^8.12",
+        "laravel/framework": "^8.26",
         "laravel/tinker": "^2.5"
     },
     "require-dev": {
         "facade/ignition": "^2.5",
         "fakerphp/faker": "^1.9.1",
+        "laravel/breeze": "^1.0",
         "laravel/sail": "^1.0.1",
         "mockery/mockery": "^1.4.2",
         "nunomaduro/collision": "^5.0",
