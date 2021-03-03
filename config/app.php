@@ -4,6 +4,43 @@ return [
 
     /*
     |--------------------------------------------------------------------------
+    | PteroBilling Version
+    |--------------------------------------------------------------------------
+    |
+    | PLEASE DON'T MODIFY THE VERSION VALUES BELOW, OR THE WHOLE APP MAY BREAK!
+    |
+    */
+
+    'version' => 'v0.1.0-beta',
+
+    /*
+    |--------------------------------------------------------------------------
+    | PteroBilling Configurations
+    |--------------------------------------------------------------------------
+    |
+    | Edit these values in .env file, then run `php artisan config:cache` to
+    | update the configurations.
+    |
+    */
+
+    'company_name' => env('COMPANY_NAME', 'PteroBilling'),
+
+    'logo_file_path' => env('LOGO_FILE_PATH', '/dist/img/icon.webp'),
+
+    'favicon_file_path' => env('FAVICON_FILE_PATH', '/dist/img/favicon.webp'),
+
+    'dark_mode' => env('DARK_MODE', false),
+
+    'panel_url' => env('PANEL_URL', 'https://panel.example.com'),
+
+    'panel_api_key' => env('PANEL_API_KEY'),
+
+    'phpmyadmin_url' => env('PHPMYADMIN_URL', 'https://pma.example.com'),
+
+    'contact' => env('CONTACT_FORM_RECEIVER', 'hello@example.com'),
+
+    /*
+    |--------------------------------------------------------------------------
     | Application Name
     |--------------------------------------------------------------------------
     |
@@ -13,7 +50,7 @@ return [
     |
     */
 
-    'name' => env('APP_NAME', 'Laravel'),
+    'name' => 'PteroBilling',
 
     /*
     |--------------------------------------------------------------------------
@@ -52,7 +89,7 @@ return [
     |
     */
 
-    'url' => env('APP_URL', 'http://localhost'),
+    'url' => env('APP_URL', 'https://example.com'),
 
     'asset_url' => env('ASSET_URL', null),
 
@@ -165,13 +202,15 @@ return [
         /*
          * Package Service Providers...
          */
+        // PayPal Integration
+        Srmklive\PayPal\Providers\PayPalServiceProvider::class,
 
         /*
          * Application Service Providers...
          */
         App\Providers\AppServiceProvider::class,
         App\Providers\AuthServiceProvider::class,
-        // App\Providers\BroadcastServiceProvider::class,
+        App\Providers\BroadcastServiceProvider::class,
         App\Providers\EventServiceProvider::class,
         App\Providers\RouteServiceProvider::class,
 
@@ -215,7 +254,7 @@ return [
         'Password' => Illuminate\Support\Facades\Password::class,
         'Queue' => Illuminate\Support\Facades\Queue::class,
         'Redirect' => Illuminate\Support\Facades\Redirect::class,
-        // 'Redis' => Illuminate\Support\Facades\Redis::class,
+        //'Redis' => Illuminate\Support\Facades\Redis::class, // Incompatible with PHP Redis extension
         'Request' => Illuminate\Support\Facades\Request::class,
         'Response' => Illuminate\Support\Facades\Response::class,
         'Route' => Illuminate\Support\Facades\Route::class,
@@ -226,6 +265,12 @@ return [
         'URL' => Illuminate\Support\Facades\URL::class,
         'Validator' => Illuminate\Support\Facades\Validator::class,
         'View' => Illuminate\Support\Facades\View::class,
+
+        /**
+         * Extensions
+         */
+        // PayPal Integration
+        'PayPal' => Srmklive\PayPal\Facades\PayPal::class,
 
     ],
 
